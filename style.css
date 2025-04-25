@@ -16,7 +16,14 @@ body {
   gap: 2rem;
 }
 
-.card {
+.intro {
+
+}
+
+.card, .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
   border-radius: 8px;
   padding: 1rem;
@@ -24,6 +31,7 @@ body {
   text-align: center;
   transition: transform 0.3s ease;
 }
+
 
 .card:hover {
   transform: scale(1.05);
