@@ -16,10 +16,6 @@ body {
   gap: 2rem;
 }
 
-.intro {
-
-}
-
 .card, .intro {
   display: flex;
   flex-direction: column;
